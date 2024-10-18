@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "dresden"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-35"
+    "humanitec.com/appId": "dresden"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
